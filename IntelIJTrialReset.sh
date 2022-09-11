@@ -1,7 +1,7 @@
 #!/bin/sh
 
-rm ~/.IntelliJIdea*/config/eval/idea*.evaluation.key && \
-sed -i '/evlsprt/d' ~/.IntelliJIdea*/config/options/other.xml && \
+rm ~/.config/JetBrains/IntelliJIdea2021.2/eval/idea*.evaluation.key && \
+sed -i '/evlsprt/d' ~/.config/JetBrains/IntelliJIdea2021.2/options/other.xml && \
 rm -rf ~/.java/.userPrefs/jetbrains
 
 # It is Highly Advised to Purchase the JetBrain Softwares
